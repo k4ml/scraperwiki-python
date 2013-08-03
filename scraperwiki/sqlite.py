@@ -8,7 +8,7 @@ def _connect(dbname = 'scraperwiki.sqlite'):
   global dt
   dt = DumpTruck(dbname = dbname,  adapt_and_convert = False)
 
-_connect()
+#_connect()
 
 def execute(sqlquery, data=[], verbose=1):
     """ Emulate scraperwiki as much as possible by mangling dumptruck result """
